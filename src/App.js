@@ -2,12 +2,65 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const data=[{"info":{"message":"Tom liked one of your comments","Alert":"3","img":"https://www.svgrepo.com/show/492700/woman-using-hair-dryer.svg"}},
-  {"info":{"message":"Andrea posted a new Tweet have a look","Alert":"2","img":"https://www.svgrepo.com/show/492699/supporting-person-diagonal.svg"}},
-  {"info":{"message":"Tom liked one of your comments","Alert":"1","img":"https://www.svgrepo.com/show/492698/people-who-support.svg"}},
-  {"info":{"message":"Andrea posted a new Tweet have a look","Alert":"0","img":"https://www.svgrepo.com/show/493150/person-holding-a-glass-of-milk.svg"}},
-  {"info":{"message":"Tom liked one of your comments","Alert":"3","img":"https://www.svgrepo.com/show/492700/woman-using-hair-dryer.svg"}}]
-  
+  const data = 
+    [
+      {
+        "info": {
+          "message": "Your vehicle has suffered major issues",
+          "Alert": "3",
+          "img": "https://www.svgrepo.com/show/500311/warning.svg"
+        }
+      },
+      {
+        "info": {
+          "message": "Your vehicle has issues that may lead to breakdown",
+          "Alert": "2",
+          "img": "https://www.svgrepo.com/show/500743/warning-filled.svg"
+        }
+      },
+      {
+        "info": {
+          "message": "Your vehicle seems to have minor issues",
+          "Alert": "1",
+          "img": "https://www.svgrepo.com/show/502908/warning.svg"
+        }
+      },
+      {
+        "info": {
+          "message": "Your vehicle is in good condition",
+          "Alert": "0",
+          "img": "https://www.svgrepo.com/show/491156/warning.svg"
+        }
+      },
+      {
+        "info": {
+          "message": "Engine oil level low. Top up required.",
+          "Alert": "2",
+          "img": "https://www.svgrepo.com/show/500743/warning-filled.svg"
+        }
+      },
+      {
+        "info": {
+          "message": "Brake pads worn. Schedule replacement.",
+          "Alert": "2",
+          "img": "https://www.svgrepo.com/show/500743/warning-filled.svg"
+        }
+      },
+      {
+        "info": {
+          "message": "Headlight bulb out. Replace soon.",
+          "Alert": "1",
+          "img": "https://www.svgrepo.com/show/502908/warning.svg"
+        }
+      },
+      {
+        "info": {
+          "message": "Windshield wipers need replacement.",
+          "Alert": "1",
+          "img": "https://www.svgrepo.com/show/502908/warning.svg"
+        }
+      }
+    ]
   const alertcss="flex justify-between px-3 py-1 items-center gap-1 rounded-lg border border-gray-100 my-3"
 
   return (
