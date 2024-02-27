@@ -59,7 +59,21 @@ function App() {
           "Alert": "1",
           "img": "https://www.svgrepo.com/show/502908/warning.svg"
         }
-      }
+      },
+      {
+        "info": {
+          "message": "All systems nominal. Vehicle healthy.",
+          "Alert": "0",
+          "img": "https://www.svgrepo.com/show/491156/warning.svg"
+        }
+      },
+      {
+        "info": {
+          "message": "Your vehicle has issues that may lead to breakdown",
+          "Alert": "2",
+          "img": "https://www.svgrepo.com/show/500743/warning-filled.svg"
+        }
+      }
     ]
   const alertcss="flex justify-between px-3 py-1 items-center gap-1 rounded-lg border border-gray-100 my-3"
 
